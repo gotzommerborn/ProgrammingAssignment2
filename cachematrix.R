@@ -1,6 +1,6 @@
 # Little modifications are needed regarding the vector example of the assignment.
 # Only needed to change some terms: mean --> MyInverse, declare a matrix and use Solve instead of Mean.
-# Used data provided by a TA on thread https://class.coursera.org/rprog-008/forum/thread?thread_id=174 to test the changes
+# Used data provided by a TA Gregory D. Horne on thread https://class.coursera.org/rprog-008/forum/thread?thread_id=174 to test the changes
 # Also the comments of the TA on this thread indicate that solution can be derived from vector sample: 
 # "From the output you should be able to discern the logic within the R code. 
 # The functions we are expected to implement to handle invertible matrices 
