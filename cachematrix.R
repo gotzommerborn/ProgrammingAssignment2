@@ -1,9 +1,10 @@
 # Little modifications are needed regarding the vector example of the assignment.
-# changed some terms: mean --> MyInverse, declare matrix and use R function Solve instead of Mean.
-# used https://class.coursera.org/rprog-008/forum/thread?thread_id=174: #"I will show you the output 
-# from the sample functions to illustrate their behaviour. From the output you should be able to discern 
-# the logic within the R code. The functions we are expected to implement to handle invertible matrices 
-#follows the exact same logic. The sample run show below can be adapted to the new functions for matrices 
+# Only needed to change some terms: mean --> MyInverse, declare a matrix and use Solve instead of Mean.
+# Used data provided by a TA on thread https://class.coursera.org/rprog-008/forum/thread?thread_id=174 to test the changes
+# Also the comments of the TA on this thread indicate that solution can be derived from vector sample: 
+# "From the output you should be able to discern the logic within the R code. 
+# The functions we are expected to implement to handle invertible matrices 
+# follows the exact same logic. The sample run show below can be adapted to the new functions for matrices 
 # and the behaviour will be the same.
 
 makeCacheMatrix <- function(x = matrix()) {
